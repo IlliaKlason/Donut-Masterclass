@@ -16,6 +16,15 @@ img {
     width: 100%;
     height: auto;
 }
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.03em;
+    &.no-scroll {
+        overflow: hidden;
+    }
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -64,6 +73,6 @@ img {
     text-align: center;
     color: var(--primary-text-color);
     @media screen and (min-width: 1280px) {
-        font-size: 35px;
+        font-size: 36px;
     }
 }
