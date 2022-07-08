@@ -1,0 +1,110 @@
+.speakers {
+    position: relative;
+}
+
+.speakers__titel {
+    position: absolute;
+
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+.speakers__grid {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 32px 20px;
+    padding-bottom: 28px;
+    padding-top: 82px;
+
+    border-radius: 20px;
+    background-image: url(../images/svg/drops1.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    background-color: var(--primary-bg-color);
+    outline: 1px solid tomato;
+}
+
+.speakers__card-titel {
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: calc(20 / 16);
+    margin-bottom: 12px;
+}
+
+.speakers__card-text {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: calc(15 / 12);
+    text-align: center;
+    letter-spacing: normal;
+}
+
+.speakers__card-img {
+    margin-bottom: 12px;
+}
+.speakers__card-img,
+.speakers__box {
+    max-width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width: 780px) {
+    .speakers__titel {
+        font-size: 36px;
+        line-height: calc (45 / 36);
+    }
+    .speakers__grid {
+        gap: 32px;
+        // background-position: 100% -33px;
+    }
+
+    .speakers__card-img,
+    .speakers__box {
+        max-width: 152px;
+    }
+    .speakers__card-img {
+        margin-bottom: 20px;
+    }
+
+    .speakers__card-text {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: calc(17 / 14);
+    }
+
+    .speakers__card-titel {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: calc(22 / 18);
+    }
+
+    .speakers__grid {
+        gap: 32px;
+        // padding-bottom: 40px;
+        // padding-top: 155px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .speakers__card-img,
+    .speakers__box {
+        max-width: 181px;
+    }
+    .speakers__grid {
+        gap: 104px;
+        justify-content: center;
+        padding-top: 232px;
+    }
+
+    .speakers__card-text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: calc(20 / 16);
+    }
+}
