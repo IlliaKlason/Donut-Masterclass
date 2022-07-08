@@ -1,12 +1,15 @@
 .about {
+  background-color: var(--secondary-bg-color);
   &__img-spoon {
     display: none;
   }
 
   &__img-coffee {
+    margin-bottom: 16px;
   }
 
   &__text {
+    margin-top: 8px;
   }
 
   &__text-desktop {
@@ -14,7 +17,8 @@
   }
 
   &__less {
-    // display: none;
+    margin-top: 16px;
+    margin-bottom: 20px;
   }
 
   &__more {

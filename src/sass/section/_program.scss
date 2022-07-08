@@ -1,11 +1,15 @@
 .program {
+  background-color: var(--secondary-bg-color);
   &__text-top {
+    margin-top: 8px;
   }
 
   &__benefits-list {
   }
 
   &__benefit {
+    margin-top: 8px;
+    margin-bottom: 8px;
   }
 
   &__text-bottom {
@@ -16,15 +20,33 @@
   }
 
   &__order {
+    position: relative;
+    display: flex;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+
+    background-color: var(--menu-bg-color);
   }
 
   &__order-img {
+    width: 77px;
+    height: 80px;
+    display: block;
+    position: absolute;
+    top: -50px;
+    left: 25px;
   }
 
   &__order-title {
+    font-size: 18px;
+    line-height: 1.28;
   }
 
   &__order-text {
+    font-size: 14px;
+    line-height: 1.21;
   }
 
   &__order-icon {
