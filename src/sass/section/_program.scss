@@ -17,10 +17,34 @@
   }
 
   &__orders-list {
+    display: flex;
+    margin-top: 20px;
   }
 
   &__order {
+    // position: relative;
+    // display: flex;
+    // flex-direction: column;
+    // text-align: center;
+    // justify-content: center;
+    // width: 130px;
+    // height: 130px;
+    // border-radius: 50%;
+    margin-bottom: 24px;
+
+    // background-color: var(--menu-bg-color);
+  }
+
+  &__order-wrapper {
     position: relative;
+
+    // margin-bottom: 24px;
+
+    // background-color: var(--menu-bg-color);
+  }
+
+  &__order-point {
+    // position: relative;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -28,7 +52,7 @@
     width: 130px;
     height: 130px;
     border-radius: 50%;
-    margin-bottom: 24px;
+    // margin-bottom: 24px;
 
     background-color: var(--menu-bg-color);
   }
@@ -43,16 +67,22 @@
   }
 
   &__order-title {
+    font-family: 'Caveat Brush';
+    font-style: normal;
+    font-weight: 400;
     font-size: 18px;
     line-height: 1.28;
   }
 
   &__order-text {
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.21;
   }
 
   &__order-icon {
+    fill: var(--svg-color);
   }
 }
 
