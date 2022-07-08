@@ -1,0 +1,62 @@
+.registration__border {
+  text-align: center;
+  width: 280px;
+  background: var(--secondary-bg-color);
+  border-radius: 150px 150px 0 0;
+  align-items: center;
+  margin: 0 auto;
+  padding: 32px 8px;
+  box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15),
+    4px 4px 4px rgba(171, 129, 108, 0.15);
+}
+.registration__title {
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+.registration__date {
+  font-size: 18px;
+  line-height: calc(22 / 18);
+  max-width: 114px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 32px;
+}
+.registration__info::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1;
+  background-color: var(--registration-bg-color);
+  margin-bottom: 8px;
+  @media screen and (min-width: 768px) {
+    transform: rotate(90deg);
+  }
+}
+.registration__description {
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  margin-bottom: 20px;
+}
+
+.form__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+.form__item:last-child {
+  margin-bottom: 32px;
+}
+.form__input {
+  background-color: transparent;
+  width: 100%;
+  height: 20px;
+  border: none;
+  border-bottom: 1px solid var(--btn-color);
+}
+.form__input::placeholder {
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  color: var(--registration-bg-color);
+}
+.form__input:not(:placeholder-shown):required:invalid {
+  border-color: red;
+  background-color: #fbd8d8;
+}
