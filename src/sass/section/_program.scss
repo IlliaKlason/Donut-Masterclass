@@ -17,7 +17,8 @@
   }
 
   &__block-img {
-    // position: relative;
+    max-width: 280px;
+    margin: 0 auto;
   }
 
   &__orders-list {
@@ -25,24 +26,29 @@
     flex-wrap: wrap;
   }
 
+  &__order {
+    display: block;
+    width: 130px;
+    // height: 130px;
+    flex-basis: calc((100% - 40px) / 2);
+  }
+
   &__order:nth-child(1) {
     margin-bottom: 64px;
-    margin-right: 33px;
+    margin-right: 20px;
     margin-top: 55px;
   }
 
   &__order:nth-child(2) {
     margin-top: auto;
-    margin-right: 33px;
   }
 
   &__order:nth-child(3) {
-    margin-right: 33px;
+    margin-right: 20px;
   }
 
   &__order:nth-child(4) {
     margin-top: 59px;
-    margin-right: 33px;
   }
 
   &__order-wrapper {
