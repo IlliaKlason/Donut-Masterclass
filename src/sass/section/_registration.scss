@@ -1,0 +1,11 @@
+.registration__border {
+  text-align: center;
+  width: 280px;
+  background: var(--bg-color-form);
+  border-radius: 150px 150px 0 0;
+  align-items: center;
+  margin: 0 auto;
+  padding: 32px 8px;
+  box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15),
+    4px 4px 4px rgba(171, 129, 108, 0.15);
+}
