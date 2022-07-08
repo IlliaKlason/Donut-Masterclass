@@ -1,4 +1,64 @@
-.header {}
+.header {
+    padding-top: 0;
+
+    @media screen and (min-width: 1280px) {
+        padding-bottom: 60px;
+    }
+
+    // mobile screens
+    background-image: url(../images/header/donuts_group-mob-1x.png);
+    background-repeat: no-repeat;
+    background-position: -12px -51px;
+
+    @media screen and (max-width: 767.98),
+    (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        background-image:
+            url(../images/header/donuts_group-mob-2x.png);
+        background-position: -12px -51px;
+        background-size: 130px;
+    }
+
+    // tablet screens
+    @media screen and (min-width: 768px) {
+        background-image:
+            url(../images/header/donuts_group-tab-1x.png);
+        background-position: top -35px right 117px;
+        background-size: 378px;
+
+
+        @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image:
+                url(../images/header/donuts_group-tab-2x.png);
+        }
+
+
+    }
+
+    // desktop screens
+    @media screen and (min-width: 1280px) {
+        background-image:
+            url(../images/header/donuts_group-desk-1x.png);
+        background-position: top -143px right -65px;
+        background-size: 661px;
+
+
+        @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image:
+                url(../images/header/donuts_group-desk-2x.png);
+        }
+
+
+    }
+}
 
 // випадаюча минюшка
 
@@ -64,7 +124,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 16px;
-    margin-top: 16px;
+    padding-top: 40px;
 
 
     @media screen and (min-width: 768px) {
@@ -96,6 +156,7 @@
     display: none;
 
     @media screen and (min-width: 1280px) {
+        margin-left: 55px;
         display: flex;
         gap: 20px;
     }
@@ -109,7 +170,6 @@
     color: var(--primary-text-color);
 
     @media screen and (min-width: 1280px) {
-        margin-bottom: 32px;
         font-size: 18px;
         line-height: calc(22/18);
     }
@@ -152,7 +212,7 @@
     font-weight: 400;
     font-size: 30px;
     margin-bottom: 8px;
-    min-width: 224px;
+    width: 224px;
     line-height: calc(38/30);
     text-align: center;
     color: var(--primary-text-color);

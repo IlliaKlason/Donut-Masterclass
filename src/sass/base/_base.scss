@@ -16,15 +16,18 @@ img {
   width: 100%;
   height: auto;
 }
+
 body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.03em;
+
   &.no-scroll {
     overflow: hidden;
   }
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -42,36 +45,43 @@ body {
 .section {
   padding-top: 16px;
   padding-bottom: 16px;
+
   @media screen and (min-width: 767.98px) {
     padding-top: 40px;
     padding-bottom: 40px;
   }
 }
+
 .container {
   margin-right: auto;
   margin-left: auto;
   padding-left: 20px;
   padding-right: 20px;
+
   @media screen and (min-width: 320px) {
     max-width: 320px;
   }
+
   @media screen and (min-width: 768px) {
     max-width: 768px;
     padding-left: 20px;
     padding-right: 20px;
   }
+
   @media screen and (min-width: 1280px) {
     max-width: 1280px;
     padding-left: 15px;
     padding-right: 15px;
   }
 }
+
 .subtitle {
   font-family: 'Caveat Brush';
   font-size: 24px;
   line-height: calc(30 / 24);
   text-align: center;
   color: var(--primary-text-color);
+
   @media screen and (min-width: 1280px) {
     font-size: 36px;
   }
