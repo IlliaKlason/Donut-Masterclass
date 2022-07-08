@@ -17,13 +17,14 @@
   }
 
   &__block-img {
-    max-width: 280px;
+    // max-width: 440px;
     margin: 0 auto;
   }
 
   &__orders-list {
     display: flex;
     flex-wrap: wrap;
+    column-gap: 20px;
   }
 
   &__order {
@@ -35,20 +36,22 @@
 
   &__order:nth-child(1) {
     margin-bottom: 64px;
-    margin-right: 20px;
+    // margin-right: 20px;
     margin-top: 55px;
   }
 
   &__order:nth-child(2) {
     margin-top: auto;
+    // margin-right: auto;
   }
 
   &__order:nth-child(3) {
-    margin-right: 20px;
+    // margin-right: 20px;
   }
 
   &__order:nth-child(4) {
     margin-top: 59px;
+    // margin-right: auto;
   }
 
   &__order-wrapper {
@@ -56,8 +59,9 @@
   }
 
   &__order-point {
-    // position: relative;
+    position: relative;
     display: flex;
+    margin: 0 auto;
     flex-direction: column;
     text-align: center;
     justify-content: center;
