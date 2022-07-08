@@ -1,0 +1,78 @@
+// логотип сайту
+.header__logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.header__image {
+    width: 96px;
+    height: 50px;
+}
+
+// навігація сайту
+
+.navigation__link {
+    font-size: 24px;
+    line-height: calc(29/24);
+    text-align: center;
+
+    color: var(--primary-text-color);
+    display: none;
+}
+
+// кннопка випадаючого меню
+
+.burger-menu__button {
+    display: none;
+}
+
+// головний заголовок
+
+.header__title {
+    font-family: 'Caveat Brush';
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 8px;
+    line-height: calc(38/30);
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+.header__text {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 32px;
+    line-height: calc(20/16);
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+// кнопка реєстрації 
+
+.header__burtton {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 47px;
+    padding-right: 47px;
+    margin-bottom: 40px;
+
+    font-family: 'Caveat Brush';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(23/18);
+    text-align: center;
+
+    color: var(--white-text-color);
+    background-color: var(--placeholder-text-color);
+    border-radius: 25px;
+}
+
+// соціальні мережі 
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
