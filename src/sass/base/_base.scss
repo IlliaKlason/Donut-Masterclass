@@ -32,6 +32,18 @@ body {
     z-index: 20;
     background-repeat: no-repeat;
     background-position: -119px 550px, top;
+    background-size: 178px auto;
+
+    @media screen and (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      background-image:
+        url(../images/body/spoon-2x.png);
+      background-repeat: no-repeat;
+      background-position: -119px 550px, top;
+      background-size: 178px auto;
+    }
   }
 
 }
