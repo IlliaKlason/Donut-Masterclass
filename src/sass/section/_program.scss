@@ -1,0 +1,144 @@
+.program {
+  background-color: var(--secondary-bg-color);
+  &__text-top {
+    margin-top: 8px;
+  }
+
+  &__benefits-list {
+    position: relative;
+  }
+
+  &__benefit {
+    position: relative;
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    align-content: center;
+    align-items: center;
+  }
+
+  &__benefit::before {
+    content: url(../images/svg/donut.svg);
+    // color: var(--svg-color);
+  }
+
+  &__benefit-icon {
+    fill: var(--svg-color);
+  }
+
+  &__text-bottom {
+    display: none;
+  }
+
+  &__container-text {
+    @media screen and (min-width: 768px) {
+      // display: flex;
+      width: 336px;
+      // height: 359px;
+    }
+    @media screen and (min-width: 1280px) {
+      width: 392px;
+      // height: 374px;
+    }
+  }
+
+  &__container-img {
+    max-width: 440px;
+    margin: 0 auto;
+  }
+
+  &__orders-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+  }
+
+  &__order {
+    display: block;
+    width: 130px;
+    // height: 130px;
+    flex-basis: calc((100% - 40px) / 2);
+  }
+
+  &__order:nth-child(1) {
+    margin-bottom: 64px;
+    margin-top: 55px;
+  }
+
+  &__order:nth-child(2) {
+    margin-top: auto;
+  }
+
+  &__order:nth-child(4) {
+    margin-top: 59px;
+  }
+
+  &__order-point {
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    // margin-bottom: 24px;
+
+    background-color: var(--menu-bg-color);
+    // box-shadow: 0 10px 12px 0 rgba(122, 121, 121, 0.2),
+    //   0 17px 50px 0 rgba(140, 135, 135, 0.19);
+    box-shadow: 0px 4px 4px rgba(171, 129, 108, 0.25);
+  }
+
+  &__order-img {
+    width: 77px;
+    height: 80px;
+    display: block;
+    position: absolute;
+    top: -40px;
+    left: 25px;
+  }
+
+  &__order-title {
+    margin-top: 30px;
+
+    font-family: 'Caveat Brush';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.28;
+  }
+
+  &__order-text {
+    margin-top: 4px;
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.21;
+  }
+
+  &__order-icon {
+    fill: var(--svg-color);
+  }
+}
+
+.about {
+  &__less {
+  }
+
+  &__more {
+  }
+}
+
+.program .container {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+  @media screen and (min-width: 1280px) {
+    justify-content: space-around;
+  }
+}

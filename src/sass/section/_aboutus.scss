@@ -1,0 +1,116 @@
+.about {
+  background-color: var(--secondary-bg-color);
+
+  // @media screen and (min-width: 768px) {
+  //   display: flex;
+  // }
+  // @media screen and (min-width: 1200px) {
+  // }
+  &__img-coffee {
+    margin-bottom: 16px;
+  }
+  // &__img-spoon {
+  //   display: none;
+  // }
+
+  &__text:not(last-child) {
+    margin-bottom: 20px;
+    @media screen and (min-width: 1280px) {
+      margin-bottom: 22px;
+    }
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 1.25;
+    @media screen and (min-width: 768px) {
+    }
+    @media screen and (min-width: 1280px) {
+      font-size: 18px;
+      // line-height: 1.22;
+    }
+  }
+
+  &__text-desktop {
+    display: none;
+    font-size: 18px;
+    line-height: 1.22;
+    @media screen and (min-width: 1280px) {
+      display: block;
+    }
+  }
+
+  &__less {
+    font-family: 'Caveat Brush';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.28;
+    color: var(--registration-bg-color);
+    display: none;
+  }
+
+  &__more {
+    margin-top: 16px;
+    font-family: 'Caveat Brush';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.28;
+    color: var(--registration-bg-color);
+    @media screen and (min-width: 1280px) {
+      display: none;
+    }
+  }
+  &__container-img {
+    @media screen and (min-width: 768px) {
+      // display: flex;
+      width: 336px;
+      // height: 359px;
+    }
+    @media screen and (min-width: 1280px) {
+      width: 502px;
+      // height: 535px;
+    }
+  }
+
+  &__container-text {
+    @media screen and (min-width: 768px) {
+      // display: flex;
+      width: 336px;
+      // height: 359px;
+    }
+    @media screen and (min-width: 1280px) {
+      width: 392px;
+      // height: 374px;
+    }
+  }
+
+  &__container-text .subtitle {
+    margin-bottom: 20px;
+    @media screen and (min-width: 768px) {
+      text-align: start;
+    }
+  }
+}
+
+.about .container {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+  @media screen and (min-width: 1280px) {
+    justify-content: space-around;
+  }
+}
+
+// font-weight: 400;
+// font-size: 24px;
+// line-height: 30px;
+// .about-container-text p {
+//   margin-top: 8px;
+//   @media screen and (min-width: 768px) {
+//     margin-top: 16px;
+//   }
+//   @media screen and (min-width: 1280px) {
+//     margin-top: 29px;
+//   }
+// }
