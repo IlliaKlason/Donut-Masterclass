@@ -134,17 +134,58 @@
         flex-basis: calc((100% - 64px) / 3);
         // background-position: center, top right;
 
+        //    @media screen and (max-width: 767.98px) {
+        //         background-image: url(../images/header/donuts_group-mob-1x.png);
+        //         background-repeat: no-repeat;
+        //         background-position: -12px -51px;
+
+        //         @media screen and (max-width: 767.98px),
+        //         (min-device-pixel-ratio: 2),
+        //         (-webkit-min-device-pixel-ratio: 2),
+        //         (min-resolution: 192dpi),
+        //         (min-resolution: 2dppx) {
+        //             background-image:
+        //                 url(../images/header/donuts_group-mob-2x.png);
+        //             background-position: -12px -51px;
+        //             background-size: 130px;
+        //             background-repeat: no-repeat;
+
+        //     }
+        // }
         &:nth-child(3) {
             background-image: url(../images/svg/prise/prise-des-drops.svg),
                 url(../images/svg/prise/prise-des-bagel-left.png), url(../images/svg/prise/prise-des-bagel-right.png);
             background-size: 100%, 66px 74px, 66px 74px;
             background-position: top, 44px 537px, 329px 464px;
+
+            @media (min-device-pixel-ratio: 2),
+                (-webkit-min-device-pixel-ratio: 2),
+                (min-resolution: 192dpi),
+                (min-resolution: 2dppx) {
+                background-image: url(../images/svg/prise/prise-des-drops.svg),
+                    url(../images/svg/prise/prise-des-bagel-left-@2x.png),
+                    url(../images/svg/prise/prise-des-bagel-right-@2x.png);
+                background-size: 100%, 66px 74px, 66px 74px;
+                background-position: top, 44px 537px, 329px 464px;
+            }
         }
+
         &:nth-child(2) {
             background-image: url(../images/svg/prise/prise-des-drops.svg),
                 url(../images/svg/prise/prise-des-bagel-left.png), url(../images/svg/prise/prise-des-bagel-right.png);
             background-size: 100%, 66px 74px, 66px 74px;
             background-position: top, 0px 448px, 327px 366px;
+
+            @media (min-device-pixel-ratio: 2),
+                (-webkit-min-device-pixel-ratio: 2),
+                (min-resolution: 192dpi),
+                (min-resolution: 2dppx) {
+                background-image: url(../images/svg/prise/prise-des-drops.svg),
+                    url(../images/svg/prise/prise-des-bagel-left-@2x.png),
+                    url(../images/svg/prise/prise-des-bagel-right-@2x.png);
+                background-size: 100%, 66px 74px, 66px 74px;
+                background-position: top, 0px 448px, 327px 366px;
+            }
         }
         &:nth-child(1) {
             background-image: url(../images/svg/prise/prise-des-drops.svg),
@@ -152,8 +193,21 @@
                 url(../images/svg/prise/prise-des-bagel-ceanter.png);
             background-size: 100%, 66px 74px, 66px 74px, 66px 73px;
             background-position: top, 0px 403px, 305px 257px, 224px 401px;
+
+            @media (min-device-pixel-ratio: 2),
+                (-webkit-min-device-pixel-ratio: 2),
+                (min-resolution: 192dpi),
+                (min-resolution: 2dppx) {
+                background-image: url(../images/svg/prise/prise-des-drops.svg),
+                    url(../images/svg/prise/prise-des-bagel-left-@2x.png),
+                    url(../images/svg/prise/prise-des-bagel-right-@2x.png),
+                    url(../images/svg/prise/prise-des-bagel-ceanter-@2x.png);
+                background-size: 100%, 66px 74px, 66px 74px, 66px 73px;
+                background-position: top, 0px 403px, 305px 257px, 224px 401px;
+            }
         }
     }
+
     .price__title-card {
         font-weight: 600;
         font-size: 24px;
