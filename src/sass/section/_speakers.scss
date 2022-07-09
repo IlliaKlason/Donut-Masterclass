@@ -1,12 +1,12 @@
 .speakers {
     position: relative;
-
     border-radius: 20px;
     background-image: url(../images/svg/speakers/drops-mob.svg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
     background-color: var(--primary-bg-color);
+
     // outline: 1px solid tomato;
 }
 
@@ -27,6 +27,7 @@
 .speakers__bg {
     width: 100%;
     height: 67px;
+    // удолить как фоны все будут
     background-color: aqua;
 }
 
