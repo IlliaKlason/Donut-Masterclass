@@ -41,7 +41,12 @@
     display: none;
   }
 
-  &__block-img {
+  &__container-text {
+    // max-width: 440px;
+    // margin: 0 auto;
+  }
+
+  &__container-img {
     max-width: 440px;
     margin: 0 auto;
   }
@@ -129,5 +134,15 @@
   }
 
   &__more {
+  }
+}
+
+.program .container {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+  @media screen and (min-width: 1280px) {
+    justify-content: space-around;
   }
 }
