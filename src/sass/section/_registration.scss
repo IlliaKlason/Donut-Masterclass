@@ -73,7 +73,6 @@
 .registration__date {
   font-size: 18px;
   line-height: calc(22 / 18);
-  max-width: 114px;
   margin-right: auto;
   margin-left: auto;
   @media screen and (min-width: 768px) {
@@ -122,12 +121,13 @@
   background-color: var(--registration-bg-color);
   margin-bottom: 8px;
   @media screen and (min-width: 768px) {
-    transform: translateX(42px) translateY(-29px) rotate(90deg);
+    transform: translateX(42px) translateY(-33px) rotate(90deg);
     width: 152px;
+    margin-bottom: 0;
   }
   @media screen and (min-width: 1280px) {
     width: 164px;
-    transform: translateX(70px) translateY(-18.3px) rotate(90deg);
+    transform: translateX(70px) translateY(-22px) rotate(90deg);
   }
 }
 .form__item:not(:last-child) {
