@@ -1,5 +1,4 @@
 .about {
-  background-color: var(--secondary-bg-color);
 
   // @media screen and (min-width: 768px) {
   //   display: flex;
@@ -9,12 +8,14 @@
   &__img-coffee {
     margin-bottom: 16px;
   }
+
   // &__img-spoon {
   //   display: none;
   // }
 
   &__text:not(last-child) {
     margin-bottom: 20px;
+
     @media screen and (min-width: 1280px) {
       margin-bottom: 22px;
     }
@@ -23,8 +24,9 @@
   &__text {
     font-size: 16px;
     line-height: 1.25;
-    @media screen and (min-width: 768px) {
-    }
+
+    @media screen and (min-width: 768px) {}
+
     @media screen and (min-width: 1280px) {
       font-size: 18px;
       // line-height: 1.22;
@@ -35,6 +37,7 @@
     display: none;
     font-size: 18px;
     line-height: 1.22;
+
     @media screen and (min-width: 1280px) {
       display: block;
     }
@@ -56,16 +59,19 @@
     font-size: 18px;
     line-height: 1.28;
     color: var(--registration-bg-color);
+
     @media screen and (min-width: 1280px) {
       display: none;
     }
   }
+
   &__container-img {
     @media screen and (min-width: 768px) {
       // display: flex;
       width: 336px;
       // height: 359px;
     }
+
     @media screen and (min-width: 1280px) {
       width: 502px;
       // height: 535px;
@@ -78,6 +84,7 @@
       width: 336px;
       // height: 359px;
     }
+
     @media screen and (min-width: 1280px) {
       width: 392px;
       // height: 374px;
@@ -86,6 +93,7 @@
 
   &__container-text .subtitle {
     margin-bottom: 20px;
+
     @media screen and (min-width: 768px) {
       text-align: start;
     }
@@ -97,6 +105,7 @@
     display: flex;
     justify-content: space-between;
   }
+
   @media screen and (min-width: 1280px) {
     justify-content: space-around;
   }
