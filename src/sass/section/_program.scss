@@ -13,18 +13,21 @@
     display: block;
     margin-top: 8px;
     margin-bottom: 8px;
-    align-content: center;
-    align-items: center;
+    // align-content: center;
+    // align-items: center;
   }
 
   &__benefit::before {
     content: url(../images/svg/donut.svg);
-    // color: var(--svg-color);
+    display: inline-block;
+    align-content: center;
+    align-items: center;
+    // background-color: #cccccc;
   }
 
-  &__benefit-icon {
-    fill: var(--svg-color);
-  }
+  // &__benefit-icon {
+  //   fill: var(--svg-color);
+  // }
 
   &__text-bottom {
     display: none;
