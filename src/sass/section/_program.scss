@@ -10,6 +10,18 @@
   &__benefit {
     margin-top: 8px;
     margin-bottom: 8px;
+    align-content: center;
+    align-items: center;
+  }
+
+  // &__benefit::before {
+  //   content: '';
+  //   background-image: url(./images/svg/inprogram.svg#activitypub);
+
+  // }
+
+  &__benefit-icon {
+    fill: var(--svg-color);
   }
 
   &__text-bottom {
