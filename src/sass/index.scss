@@ -1,11 +1,19 @@
-@import './utils/vars';
+@import "./utils/vars";
 
-@import './base/base';
+@import "./base/base";
 
-@import './common';
+@import "./common";
 
+// speakers секция
+@import "./section/speakers";
+// price секция
+@import "./section/price";
+
+@import "./common";
+
+@import "./section/registration";
 
 // section
-@import './section/header';
-@import './components/social-links';
-@import './section/registration';
+@import "./section/header";
+@import "./components/social-links";
+@import "./section/registration";
