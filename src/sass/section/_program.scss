@@ -54,9 +54,9 @@
     // margin-right: auto;
   }
 
-  &__order-wrapper {
-    position: relative;
-  }
+  // &__order-wrapper {
+  //   position: relative;
+  // }
 
   &__order-point {
     position: relative;
@@ -72,6 +72,9 @@
     // margin-bottom: 24px;
 
     background-color: var(--menu-bg-color);
+    // box-shadow: 0 10px 12px 0 rgba(122, 121, 121, 0.2),
+    //   0 17px 50px 0 rgba(140, 135, 135, 0.19);
+    box-shadow: 0px 4px 4px rgba(171, 129, 108, 0.25);
   }
 
   &__order-img {
