@@ -1,5 +1,12 @@
 .about {
   background-color: var(--secondary-bg-color);
+
+  // @media screen and (min-width: 768px) {
+  //   display: flex;
+  // }
+  // @media screen and (min-width: 1200px) {
+  // }
+
   &__img-spoon {
     display: none;
   }
@@ -9,7 +16,7 @@
   }
 
   &__text {
-    margin-top: 8px;
+    column-gap: 20px;
   }
 
   &__text-desktop {
@@ -22,5 +29,13 @@
 
   &__more {
     display: none;
+  }
+}
+
+.about .container {
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+  @media screen and (min-width: 1200px) {
   }
 }
