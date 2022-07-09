@@ -17,21 +17,21 @@
     align-items: center;
   }
 
-  &__benefit::before {
-    // content: url('../images/svg/activitypub.svg');
-    content: '';
-    width: 15px;
-    height: 15px;
-    border: 2px solid red;
-    display: block;
-    // display: inline-block;
-    // position: absolute;
-    // top: 0;
-    // left: 0;
-    background-image: url('../images/svg/activitypub.svg');
-    z-index: 100;
-    // background-color: var(--svg-color);
-  }
+  // &__benefit::before {
+  //   // content: url('../images/svg/activitypub.svg');
+  //   content: '';
+  //   width: 15px;
+  //   height: 15px;
+  //   border: 2px solid red;
+  //   display: block;
+  //   // display: inline-block;
+  //   // position: absolute;
+  //   // top: 0;
+  //   // left: 0;
+  //   background-image: url('../images/svg/activitypub.svg');
+  //   z-index: 100;
+  //   // background-color: var(--svg-color);
+  // }
 
   &__benefit-icon {
     fill: var(--svg-color);
