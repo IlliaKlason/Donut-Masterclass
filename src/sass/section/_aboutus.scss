@@ -1,5 +1,4 @@
 .about {
-
   // @media screen and (min-width: 768px) {
   //   display: flex;
   // }
@@ -25,7 +24,8 @@
     font-size: 16px;
     line-height: 1.25;
 
-    @media screen and (min-width: 768px) {}
+    @media screen and (min-width: 768px) {
+    }
 
     @media screen and (min-width: 1280px) {
       font-size: 18px;
@@ -87,7 +87,10 @@
 
     @media screen and (min-width: 1280px) {
       width: 392px;
-      // height: 374px;
+      margin-top: 135px;
+      // position: absolute;
+      // top: 0;
+      // left: 0;
     }
   }
 
