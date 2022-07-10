@@ -52,7 +52,7 @@ body {
   @media screen and (min-width: 768px) {
     background-image: url(../images/body/bg-tablet1.png);
     background-repeat: no-repeat;
-    background-position: top 0;
+    background-position: top;
     background-size: 100% 622px;
 
     @media screen and (min-device-pixel-ratio: 2),
@@ -61,7 +61,7 @@ body {
     (min-resolution: 2dppx) {
       background-image: url(../images/body/bg-tablet2x.png);
       background-repeat: no-repeat;
-      background-position: top 0;
+      background-position: top;
       background-size: 100% 622px;
 
     }
@@ -70,7 +70,7 @@ body {
   @media screen and (min-width: 1280px) {
     background-image: url(../images/body/bg-desk1.png);
     background-repeat: no-repeat;
-    background-position: top 0;
+    background-position: top;
     background-size: 100% 1035px;
 
     @media screen and (min-device-pixel-ratio: 2),
@@ -79,7 +79,7 @@ body {
     (min-resolution: 2dppx) {
       background-image: url(../images/body/bg-desk2x.png);
       background-repeat: no-repeat;
-      background-position: top 0;
+      background-position: top;
       background-size: 100% 1035px;
 
     }
@@ -88,7 +88,7 @@ body {
   @media screen and (min-width: 1300px) {
     background-image: url(../images/body/bg-desk1.png);
     background-repeat: no-repeat;
-    background-position: top 0;
+    background-position: top;
     background-size: 100% 1035px;
 
 
@@ -98,7 +98,7 @@ body {
     (min-resolution: 2dppx) {
       background-image: url(../images/body/bg-desk2x.png);
       background-repeat: no-repeat;
-      background-position: top 0;
+      background-position: top;
       background-size: 100% 1035px;
 
     }
