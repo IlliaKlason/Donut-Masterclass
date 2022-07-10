@@ -1,11 +1,13 @@
 @import './utils/vars';
 
 @import './base/base';
-
+@import './common';
 @import './common';
 // фон сторінки
 @import './base/_background';
 @import './components/button-up';
+
+@import './section/header';
 
 @import './section/aboutus';
 @import './section/program';
@@ -16,12 +18,10 @@
 // price секция
 @import './section/price';
 
-@import './common';
+@import './section/registration';
+@import './section/registration';
 
 @import './section/footer';
-@import './section/registration';
 
 // section
-@import './section/header';
 @import './components/social-links';
-@import './section/registration';
