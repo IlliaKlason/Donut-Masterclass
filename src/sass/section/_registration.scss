@@ -46,7 +46,6 @@
 .registration__wrap {
   @media screen and (min-width: 768px) {
     display: flex;
-    justify-content: space-between;
     align-items: center;
   }
   @media screen and (min-width: 1280px) {
@@ -81,11 +80,8 @@
 
 .registration__form {
   @media screen and (min-width: 768px) {
-    width: 237px;
     text-align: left;
-  }
-  @media screen and (min-width: 1280px) {
-    margin-right: 24px;
+    margin-left: 56px;
   }
 }
 .registration__description {
@@ -94,6 +90,7 @@
   margin-bottom: 20px;
 
   @media screen and (min-width: 768px) {
+    width: 283px;
     margin-bottom: 16px;
   }
   @media screen and (min-width: 1280px) {
@@ -109,7 +106,6 @@
   }
   @media screen and (min-width: 1280px) {
     width: 127px;
-    margin-right: 64px;
   }
 }
 .registration__info::after {
@@ -129,6 +125,11 @@
     transform: translateX(70px) translateY(-22px) rotate(90deg);
   }
 }
+.form {
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
 .form__item:not(:last-child) {
   margin-bottom: 20px;
   @media screen and (min-width: 768px) {
@@ -143,7 +144,7 @@
 }
 .form__input {
   background-color: transparent;
-  width: 100%;
+  width: 237px;
   height: 20px;
   border: none;
   outline: none;
@@ -164,6 +165,7 @@
   background-color: #fbd8d8;
 }
 .form__button {
+  height: 40px;
   font-family: 'Caveat Brush';
   color: var(--white-text-color);
   background-color: var(--btn-color);
@@ -173,8 +175,15 @@
   border-radius: 25px;
   font-size: 18px;
   line-height: calc(23 / 18);
+  @media screen and (min-width: 768px) {
+    margin-left: 54px;
+  }
   @media screen and (min-width: 1280px) {
     font-size: 24px;
+    height: 45px;
+    margin-left: 27px;
+    display: flex;
+    align-items: center;
   }
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
