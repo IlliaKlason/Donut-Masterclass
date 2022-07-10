@@ -3,6 +3,24 @@
 @import './base/base';
 
 @import './common';
+// фон сторінки
+@import './base/_background';
+
+@import './section/aboutus';
+@import './section/program';
+@import './section/reviews';
+@import './section/registration';
+// speakers секция
+@import './section/speakers';
+// price секция
+@import './section/price';
+
+@import './common';
 
 @import './section/footer';
+@import './section/registration';
+
+// section
+@import './section/header';
+@import './components/social-links';
 @import './section/registration';
