@@ -1,31 +1,139 @@
-.section {
+.contacts {
   background-color: #fff;
+
   @media screen and (min-width: 768px) {
-    // margin-bottom: 60px;
     padding-bottom: 60px;
   }
+
   @media screen and (min-width: 1280px) {
     background-color: var(--secondary-bg-color);
-    margin-top: 164px;
+    // margin-top: 164px;
+    padding-top: 164px;
     padding-bottom: 73px;
   }
 }
 
 .footer {
   background-color: #fff;
-  //   padding-top: 16px;
-  padding-bottom: 46px;
+  width: 100%;
+  height: 100px;
+  position: relative;
+  z-index: 15;
+  // background-size: contain;
+  // background-image: url(../images/contact/plate-mob-1x.png);
+  // background-repeat: no-repeat;
+  // background-position: 100%;
+  // padding: 32px 0 46px 0;
+
+  &__img {
+    width: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -5;
+  }
+
+  .footer__img-tab {
+    display: none;
+  }
+
+  .footer__img-desk {
+    display: none;
+  }
 
   @media screen and (min-width: 768px) {
-    // padding-top: 40px;
-    padding-bottom: 112px;
+    .footer__img {
+      display: none;
+    }
+
+    .footer__img-desk {
+      display: none;
+    }
+
+    .footer__img-tab {
+      display: block;
+      width: auto;
+      position: absolute;
+      bottom: 30px;
+      right: 0;
+      z-index: -5;
+    }
+
+    height: 180px;
   }
 
   @media screen and (min-width: 1280px) {
-    padding-top: 90px;
-    padding-bottom: 232px;
     background-color: var(--secondary-bg-color);
+    .footer__img {
+      display: none;
+    }
+
+    .footer__img-tab {
+      display: none;
+    }
+
+    .footer__img-desk {
+      display: block;
+      width: auto;
+      position: absolute;
+      bottom: 60px;
+      right: 0;
+      z-index: -5;
+
+      .soc-list {
+        margin-bottom: 0;
+      }
+
+      .footer-list {
+        align-items: flex-start;
+      }
+    }
+
+    height: 280px;
   }
+
+  &-container {
+    height: 100%;
+  }
+
+  &-list {
+    height: 100%;
+    align-items: center;
+  }
+
+  // @media (min-device-pixel-ratio: 2),
+  //   (-webkit-min-device-pixel-ratio: 2),
+  //   (min-resolution: 192dpi),
+  //   (min-resolution: 2dppx) {
+  //   background-image: url(../images/contact/plate-mob-2x.png);
+  // }
+
+  // @media screen and (min-width: 768px) {
+  //   padding-bottom: 112px;
+  //   background-image: url(../images/contact/plate-tab-1x.png);
+
+  //   @media (min-device-pixel-ratio: 2),
+  //     (-webkit-min-device-pixel-ratio: 2),
+  //     (min-resolution: 192dpi),
+  //     (min-resolution: 2dppx) {
+  //     background-image: url(../images/contact/plate-tab-2x.png);
+  //   }
+  // }
+
+  // @media screen and (min-width: 1280px) {
+  //   padding-top: 90px;
+  //   padding-bottom: 232px;
+  //   background-color: var(--secondary-bg-color);
+
+  //   background-image: url(../images/contact/plate-desk-1x.png);
+
+  //   @media (min-device-pixel-ratio: 2),
+  //     (-webkit-min-device-pixel-ratio: 2),
+  //     (min-resolution: 192dpi),
+  //     (min-resolution: 2dppx) {
+  //     background-image: url(../images/contact/plate-desk-2x.png);
+  //   }
+  // }
 }
 
 .subtitle {
@@ -131,6 +239,8 @@
   @media screen and (min-width: 1280px) {
     padding-left: 108px;
     padding-right: 305px;
+    align-items: flex-start;
+    padding-top: 50px;
   }
 }
 
