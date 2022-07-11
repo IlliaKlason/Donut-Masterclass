@@ -7,6 +7,10 @@ $('.reviews__list').slick({
     slidesToShow: 3,
     slidesScroll: 1,
     variableWidth: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    speed: 500,
+    cssEase: 'linear',
     dots: false,
     responsive: [{
         breakpoint: 768,
