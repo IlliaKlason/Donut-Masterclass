@@ -1,36 +1,33 @@
 
 $('.reviews__list').slick({
-    arrows: false,
+    autoplay: false,
+    centerMode: true,
     infinite: true,
-    speed: 300,
+    arrows: false,
     slidesToShow: 3,
-    slidesToScroll: 1,
-    responsive: [
-        {
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                infinite: true,
-                // dots: true
-            }
-        },
-        {
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 2
-            }
-        },
-        {
-            breakpoint: 320,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
+    slidesScroll: 1,
+    variableWidth: true,
+    dots: false,
+    responsive: [{
+        breakpoint: 768,
+        settings: {
+            variableWidth: true,
+            slidesToShow: 3,
+            slidesScroll: 1,
+            centerMode: true,
+            arrows: false
         }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
+    },
+    {
+        breakpoint: 320,
+        settings: {
+            variableWidth: true,
+            slidesToShow: 1,
+            slidesScroll: 1,
+            centerMode: true,
+            arrows: false
+        }
+    }
         // instead of a settings object
     ]
 });
