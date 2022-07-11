@@ -1,14 +1,13 @@
 
 $('.reviews__list').slick({
-    dots: true,
     arrows: false,
-    infinite: false,
+    infinite: true,
     speed: 300,
     slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 768,
             settings: {
                 slidesToShow: 3,
                 slidesToScroll: 3,
@@ -17,14 +16,14 @@ $('.reviews__list').slick({
             }
         },
         {
-            breakpoint: 600,
+            breakpoint: 768,
             settings: {
-                slidesToShow: 2,
+                slidesToShow: 3,
                 slidesToScroll: 2
             }
         },
         {
-            breakpoint: 480,
+            breakpoint: 320,
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1
