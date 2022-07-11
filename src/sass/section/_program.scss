@@ -45,16 +45,13 @@
     @media screen and (min-width: 768px) {
       display: flex;
       gap: 32px;
-      // justify-content: space-around;
     }
     @media screen and (min-width: 1280px) {
       gap: 132px;
-      // justify-content: space-around;
     }
   }
 
   &__container-text {
-    // width: 340px;
     font-size: 16px;
     line-height: 1.25;
 
@@ -69,9 +66,7 @@
   }
 
   &__container-img {
-    // width: 400px;
     margin-top: -15px;
-    // margin: 0 auto;
 
     @media screen and (min-width: 768px) {
       // width: 480px;
@@ -223,15 +218,12 @@
     }
   }
   &__btn-less {
-    // display: flex;
     background-color: transparent;
     border: none;
     margin-top: 16px;
 
     cursor: pointer;
-    // justify-content: start;
 
-    // text-align: left;
     @media screen and (min-width: 1280px) {
       display: none;
     }
