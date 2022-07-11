@@ -2,16 +2,20 @@
   @media screen and (min-width: 768px) {
     padding-bottom: 0;
   }
+
   @media screen and (min-width: 1280px) {
     padding-bottom: 60px;
   }
 }
+
 .reviews__title {
   margin-bottom: 20px;
+
   @media screen and (min-width: 1280px) {
     margin-bottom: 85px;
   }
 }
+
 .reviews__list {
   display: flex;
   justify-content: center;
@@ -21,15 +25,19 @@
   display: none;
   font-size: 14px;
   text-align: center;
+
   p {
     font-style: italic;
   }
+
   &:nth-child(2) {
     display: block;
+
     p {
       margin-top: 8px;
     }
   }
+
   @media screen and (min-width: 768px) {
     margin-right: 32px;
     display: block;
@@ -37,24 +45,29 @@
     &:nth-child(3) {
       margin-right: 0;
     }
+
     p {
       margin-top: 6px;
       font-size: 14px;
     }
   }
+
   @media screen and (min-width: 1280px) {
     &:nth-child(3) {
       margin-right: 0;
     }
+
     p {
       margin-top: 6px;
       font-size: 16px;
     }
   }
+
   &.item-2 {
     @media screen and (min-width: 768px) {
       margin-top: 62px;
     }
+
     @media screen and (min-width: 768px) {
       margin-top: 143px;
     }
@@ -66,11 +79,13 @@
   border-radius: 50%;
   margin: auto;
 }
+
 .reviews__content {
   display: flex;
   justify-content: center;
   margin-top: 32px;
 }
+
 .reviews__decorate {
   display: flex;
   position: relative;
@@ -81,6 +96,7 @@
   @media screen and (min-width: 768px) {
     width: 300px;
   }
+
   @media screen and (min-width: 1280px) {
     width: 330px;
   }
@@ -111,6 +127,7 @@
       max-width: 1280px;
     }
   }
+
   &::before {
     position: absolute;
     content: '';
@@ -138,13 +155,16 @@
     }
   }
 }
+
 .reviews__description {
   margin-top: 8px;
   text-align: center;
   font-size: 16px;
+
   @media screen and (min-width: 768px) {
     margin-top: 20px;
   }
+
   @media screen and (min-width: 1280px) and (min-width: 768px) {
     font-size: 18px;
     margin: 0 auto;
@@ -159,8 +179,10 @@
   margin-top: 8px;
   justify-content: center;
 }
+
 .rate__item {
   margin-right: 4px;
+
   &:nth-child(5) {
     margin-right: 0;
   }
