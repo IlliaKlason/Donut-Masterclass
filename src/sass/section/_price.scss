@@ -28,14 +28,15 @@
     background-size: 100%;
 
     padding-bottom: 20px;
-
-    &:not(:last-child) {
-        margin-bottom: 12px;
-    }
 }
 @media screen and (max-width: 767.98px) {
     .section.price__card--margin:not(:last-child) {
         margin-bottom: 16px;
+    }
+    .price__card {
+        &:not(:last-child) {
+            margin-bottom: 12px;
+        }
     }
 }
 
