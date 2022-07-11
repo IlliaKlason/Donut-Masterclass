@@ -17,6 +17,10 @@
     align-items: center;
   }
 
+  &__benefit:last-child {
+    margin-bottom: 0;
+  }
+
   &__benefit span {
     display: flex;
     align-items: center;
@@ -28,10 +32,11 @@
     margin-right: 7px;
   }
 
-  &__text-bottom {
-    display: none;
+  &__text-desktop {
+    margin-top: 16px;
     @media screen and (min-width: 1280px) {
       display: block;
+      margin-top: 16px;
     }
   }
 
@@ -214,12 +219,22 @@
       height: 25px;
     }
   }
+  &__btn-less {
+    // display: flex;
+    background-color: transparent;
+    border: none;
+    margin-top: 16px;
+
+    cursor: pointer;
+    // justify-content: start;
+
+    // text-align: left;
+    @media screen and (min-width: 1280px) {
+      display: none;
+    }
+  }
 }
 
-.about {
-  &__less {
-  }
-
-  &__more {
-  }
+.is-hidden {
+  display: none;
 }
