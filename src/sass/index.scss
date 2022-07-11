@@ -5,6 +5,8 @@
 @import './base/background';
 @import './components/button-up';
 
+@import './section/header';
+
 @import './section/aboutus';
 @import './section/program';
 @import './section/reviews';
@@ -14,12 +16,10 @@
 // price секция
 @import './section/price';
 
-@import './common';
+@import './section/registration';
+@import './section/registration';
 
 @import './section/footer';
-@import './section/registration';
 
 // section
-@import './section/header';
 @import './components/social-links';
-@import './section/registration';

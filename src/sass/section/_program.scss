@@ -17,6 +17,10 @@
     align-items: center;
   }
 
+  &__benefit:last-child {
+    margin-bottom: 0;
+  }
+
   &__benefit span {
     display: flex;
     align-items: center;
@@ -28,37 +32,67 @@
     margin-right: 7px;
   }
 
-  &__text-bottom {
-    display: none;
+  &__text-desktop {
+    margin-top: 16px;
     @media screen and (min-width: 1280px) {
       display: block;
+      margin-top: 16px;
+    }
+  }
+
+  .program-container {
+    justify-content: center;
+    @media screen and (min-width: 768px) {
+      display: flex;
+      gap: 32px;
+      // justify-content: space-around;
+    }
+    @media screen and (min-width: 1280px) {
+      gap: 132px;
+      // justify-content: space-around;
     }
   }
 
   &__container-text {
+    // width: 340px;
     font-size: 16px;
     line-height: 1.25;
 
     @media screen and (min-width: 768px) {
-      width: 336px;
+      width: 440px;
     }
     @media screen and (min-width: 1280px) {
-      width: 392px;
+      width: 480px;
       font-size: 18px;
       line-height: 1.25;
     }
   }
 
   &__container-img {
-    // max-width: 440px;
+    // width: 400px;
+    margin-top: -15px;
     // margin: 0 auto;
+
+    @media screen and (min-width: 768px) {
+      // width: 480px;
+    }
+    @media screen and (min-width: 1280px) {
+      display: flex;
+      width: 480px;
+    }
   }
 
   &__orders-list {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    // column-gap: 20px;
+
+    @media screen and (min-width: 768px) {
+      justify-content: space-between;
+    }
+
+    @media screen and (min-width: 1280px) {
+      justify-content: center;
+    }
   }
 
   &__order {
@@ -188,23 +222,22 @@
       height: 25px;
     }
   }
+  &__btn-less {
+    // display: flex;
+    background-color: transparent;
+    border: none;
+    margin-top: 16px;
+
+    cursor: pointer;
+    // justify-content: start;
+
+    // text-align: left;
+    @media screen and (min-width: 1280px) {
+      display: none;
+    }
+  }
 }
 
-.about {
-  &__less {
-  }
-
-  &__more {
-  }
-}
-
-.program-container {
-  // justify-content: space-between;
-  @media screen and (min-width: 768px) {
-    display: flex;
-    justify-content: space-between;
-  }
-  @media screen and (min-width: 1280px) {
-    justify-content: space-around;
-  }
+.is-hidden {
+  display: none;
 }

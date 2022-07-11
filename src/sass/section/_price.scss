@@ -1,5 +1,6 @@
 .price-section {
-    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .price {
@@ -29,8 +30,13 @@
     padding-bottom: 20px;
 }
 @media screen and (max-width: 767.98px) {
-    .price__card--margin:not(:last-child) {
+    .section.price__card--margin:not(:last-child) {
         margin-bottom: 16px;
+    }
+    .price__card {
+        &:not(:last-child) {
+            margin-bottom: 12px;
+        }
     }
 }
 
@@ -92,9 +98,12 @@
     }
 }
 @media screen and (min-width: 768px) {
+    .price-section {
+        padding-bottom: 40px;
+    }
     .price__title {
-        font-size: 36px;
-        line-height: calc(45 / 36);
+        font-size: 24px;
+        line-height: calc(30 / 24);
         margin-bottom: 40px;
     }
     .price__grid {
@@ -124,7 +133,12 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .price-section {
+        padding-top: 40px;
+    }
     .price__title {
+        font-size: 36px;
+        line-height: calc(45 / 36);
     }
     .price__grid {
         gap: 32px;
@@ -132,26 +146,7 @@
     .price__card {
         padding-bottom: 40px;
         flex-basis: calc((100% - 64px) / 3);
-        // background-position: center, top right;
 
-        //    @media screen and (max-width: 767.98px) {
-        //         background-image: url(../images/header/donuts_group-mob-1x.png);
-        //         background-repeat: no-repeat;
-        //         background-position: -12px -51px;
-
-        //         @media screen and (max-width: 767.98px),
-        //         (min-device-pixel-ratio: 2),
-        //         (-webkit-min-device-pixel-ratio: 2),
-        //         (min-resolution: 192dpi),
-        //         (min-resolution: 2dppx) {
-        //             background-image:
-        //                 url(../images/header/donuts_group-mob-2x.png);
-        //             background-position: -12px -51px;
-        //             background-size: 130px;
-        //             background-repeat: no-repeat;
-
-        //     }
-        // }
         &:nth-child(3) {
             background-image: url(../images/svg/prise/prise-des-drops.svg),
                 url(../images/svg/prise/prise-des-bagel-left.png), url(../images/svg/prise/prise-des-bagel-right.png);
