@@ -2,25 +2,29 @@
   <div class="container">
     <h2 class="contacts-title subtitle" id="contacts">Contact</h2>
     <p class="contacts-description">We will answer any question!</p>
-    <form action=""></form>
+    <!-- <form action=""></form> -->
 
     <form class="form-container" action="submin">
-      <!-- <div class="form-container"> -->
-      <input
-        type="email"
-        name="email"
-        placeholder="E-mail"
-        class="form-container__data data-email"
-        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-        placeholder="Email"
-        required
-      />
-      <input type="text" placeholder="Type your question" class="form-container__data data-tel" />
-      <!-- </div> -->
+      <ul>
+        <li>
+          <input
+            type="email"
+            name="email"
+            placeholder="E-mail"
+            class="form-container__data data-email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            placeholder="Email"
+            required
+          />
+          <span class="form__input-helper"> * Donut@gmail.com</span>
+        </li>
+        <li>
+          <input type="text" placeholder="Type your question" class="form-container__data data-tel" />
+        </li>
+      </ul>
       <button type="submit" class="button">Send</button>
     </form>
 
-    <!-- <div class=""> -->
     <ul class="social-link cont-soc">
       <li class="social-link__item">
         <a href="https://twitter.com/?lang=uk" class="social-link__link" target="_blank">
@@ -46,4 +50,3 @@
     </ul>
   </div>
 </section>
-<!-- </div> -->
