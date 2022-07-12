@@ -9,7 +9,7 @@ $('.reviews__list').slick({
     variableWidth: true,
     autoplay: true,
     autoplaySpeed: 2000,
-    speed: 500,
+    speed: 300,
     cssEase: 'linear',
     dots: false,
     responsive: [{
