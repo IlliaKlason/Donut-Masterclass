@@ -1,12 +1,5 @@
 .footer {
   width: 100%;
-  // background-size: contain;
-  //     @media not all,
-  //       screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
-  //       screen and (min-width: 768px) and (min-resolution: 192dpi),
-  //       screen and (min-width: 768px) and (min-resolution: 2dppx) {
-  //       background-image: url(../images/registration/donut-tab-2x.png), url(../images/registration/confetti-tab-2x.png);
-  //     }
 }
 .footer-container {
   height: 80px;
@@ -21,12 +14,12 @@
 .footer-list {
   display: flex;
   justify-content: space-between;
-  //   align-items: center;
+  align-items: center;
   @media screen and (min-width: 768px) {
-    margin-right: 62px;
+    padding-right: 61px;
   }
   @media screen and (min-width: 1280px) {
-    padding-left: 108px;
+    padding-left: 107px;
     padding-right: 305px;
     align-items: flex-start;
   }
@@ -35,12 +28,12 @@
 .footer-list__link {
   font-size: 16px;
   line-height: 20px;
-  color: #2e2520;
+  color: var(--primary-text-color);
   display: flex;
   align-items: center;
 }
 
 .footer-list__icon {
   margin-right: 4px;
-  fill: #2e2520;
+  fill: var(--primary-text-color);
 }
