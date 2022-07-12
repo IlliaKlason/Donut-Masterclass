@@ -36,6 +36,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  //   width: 100%;
 }
 
 .form-container__data {
@@ -130,5 +131,34 @@
 @media screen and (min-width: 1280px) {
   .social-link {
     margin-bottom: 0;
+  }
+}
+
+// .form-container__list {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   width: 100%;
+// }
+
+.form-container__item {
+  position: relative;
+}
+
+.form-container__item:focus-within .form-container__helper {
+  opacity: 1;
+}
+
+.form-container__helper {
+  top: 15%;
+  left: 6px;
+
+  @media screen and (min-width: 768px) {
+    top: 15%;
+    left: 6px;
+  }
+  @media screen and (min-width: 1280px) {
+    top: 15%;
+    left: 6px;
   }
 }

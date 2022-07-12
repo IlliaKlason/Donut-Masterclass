@@ -4,24 +4,18 @@
     <p class="contacts-description">We will answer any question!</p>
     <!-- <form action=""></form> -->
 
-    <form class="form-container" action="submin">
-      <ul>
-        <li>
-          <input
-            type="email"
-            name="email"
-            placeholder="E-mail"
-            class="form-container__data data-email"
-            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-            placeholder="Email"
-            required
-          />
-          <span class="form__input-helper"> * Donut@gmail.com</span>
-        </li>
-        <li>
-          <input type="text" placeholder="Type your question" class="form-container__data data-tel" />
-        </li>
-      </ul>
+    <form class="form-container form-container__item" action="submin">
+      <input
+        type="email"
+        name="email"
+        placeholder="E-mail"
+        class="form-container__data data-email"
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+        placeholder="Email"
+        required
+      />
+      <span class="form-container__helper"> * Donut@gmail.com</span>
+      <input type="text" placeholder="Type your question" class="form-container__data data-tel" />
       <button type="submit" class="button">Send</button>
     </form>
 
