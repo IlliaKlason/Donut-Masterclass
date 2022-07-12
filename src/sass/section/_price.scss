@@ -90,11 +90,10 @@
 
     border: none;
     border-radius: 25px;
-    // Проверить что бі работал фаоус!!! так как в варе небыло цвета
     &:hover,
     &:focus {
-        background-color: var(--hover-color);
-        color: var(--btn-box-shadow);
+        background-color: var(--hover-btn-color);
+        box-shadow: var(--btn-box-shadow);
     }
 }
 @media screen and (min-width: 768px) {
