@@ -1,0 +1,59 @@
+.slick-slide {
+  width: 274px;
+
+  @media screen and (min-width: 768px) {
+    width: 150px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 274px;
+  }
+}
+
+.slick-slide.slick-center {
+  width: 280px;
+
+  @media screen and (min-width: 768px) {
+    width: 336px;
+    margin-top: 85px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 400px;
+    margin-top: 135px;
+  }
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 32px;
+
+  &::after,
+  &::before {
+    content: '';
+    width: 35px;
+    height: 1px;
+    background-color: var(--btn-color);
+  }
+}
+
+.slick-dots > li > button {
+  background-color: transparent;
+  border: none;
+  line-height: calc(20 / 16);
+  color: #ab816c;
+
+  &::after {
+    content: '/6';
+  }
+}
+.slick-dots > li {
+  display: none;
+
+  &.slick-active {
+    display: contents;
+  }
+}
