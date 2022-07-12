@@ -309,7 +309,7 @@
   &__order-title {
     margin-top: 30px;
 
-    font-family: 'Caveat Brush';
+    font-family: "Caveat Brush";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -397,6 +397,10 @@
       // display: none;
     }
   }
+}
+
+.program__img {
+  outline: 1px solid tomato;
 }
 
 .is-hidden {
