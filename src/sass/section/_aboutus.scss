@@ -1,16 +1,7 @@
 .about {
-  // @media screen and (min-width: 768px) {
-  //   display: flex;
-  // }
-  // @media screen and (min-width: 1200px) {
-  // }
   &__img-coffee {
     margin-bottom: 16px;
   }
-
-  // &__img-spoon {
-  //   display: none;
-  // }
 
   &__text {
     margin-bottom: 20px;
@@ -36,11 +27,11 @@
 
     @media screen and (min-width: 1280px) {
       font-size: 18px;
-      // line-height: 1.22;
     }
   }
 
   &__text-desktop {
+    display: none;
     font-size: 16px;
     line-height: 1.25;
     margin-top: 20px;
@@ -69,12 +60,9 @@
     font-size: 18px;
     line-height: 1.28;
     color: var(--registration-bg-color);
-    // text-align: left;
-    // display: none;
   }
 
   &__more {
-    // display: none;
     margin-top: 16px;
     font-family: 'Caveat Brush';
     font-weight: 400;
@@ -90,32 +78,22 @@
 
   &__container-img {
     @media screen and (min-width: 768px) {
-      // display: flex;
       width: 440px;
-      // height: 359px;
     }
 
     @media screen and (min-width: 1280px) {
       width: 502px;
-      // height: 535px;
     }
   }
 
   &__container-text {
-    // width: 340px;
-
     @media screen and (min-width: 768px) {
-      // display: flex;
       width: 440px;
-      // height: 359px;
     }
 
     @media screen and (min-width: 1280px) {
       width: 480px;
       margin-top: 135px;
-      // position: absolute;
-      // top: 0;
-      // left: 0;
     }
   }
 
