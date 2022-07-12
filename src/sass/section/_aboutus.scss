@@ -44,6 +44,7 @@
   }
 
   &__btn-less {
+    padding: 0;
     display: block;
     background-color: transparent;
     border: none;
@@ -87,6 +88,7 @@
   }
 
   &__container-text {
+    width: 420px;
     @media screen and (min-width: 768px) {
       width: 440px;
     }
@@ -98,10 +100,11 @@
   }
 
   &__container-text .subtitle {
-    margin-bottom: 20px;
+    margin-bottom: 8px;
 
     @media screen and (min-width: 768px) {
       text-align: start;
+      margin-bottom: 16px;
     }
   }
 }
