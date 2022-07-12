@@ -49,7 +49,9 @@
     background-color: transparent;
     border: none;
     margin-top: 16px;
+    margin-bottom: 16px;
     justify-content: start;
+    cursor: pointer;
     @media screen and (min-width: 1280px) {
       display: none;
     }
@@ -73,7 +75,7 @@
     outline: none;
 
     @media screen and (min-width: 1280px) {
-      display: none;
+      // display: none;
     }
   }
 
