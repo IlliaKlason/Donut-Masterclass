@@ -44,11 +44,14 @@
   }
 
   &__btn-less {
+    padding: 0;
     display: block;
     background-color: transparent;
     border: none;
     margin-top: 16px;
+    margin-bottom: 16px;
     justify-content: start;
+    cursor: pointer;
     @media screen and (min-width: 1280px) {
       display: none;
     }
@@ -72,7 +75,7 @@
     outline: none;
 
     @media screen and (min-width: 1280px) {
-      display: none;
+      // display: none;
     }
   }
 
@@ -87,6 +90,7 @@
   }
 
   &__container-text {
+    width: 420px;
     @media screen and (min-width: 768px) {
       width: 440px;
     }
@@ -98,10 +102,11 @@
   }
 
   &__container-text .subtitle {
-    margin-bottom: 20px;
+    margin-bottom: 8px;
 
     @media screen and (min-width: 768px) {
       text-align: start;
+      margin-bottom: 16px;
     }
   }
 }

@@ -35,7 +35,7 @@ img {
 body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.03em;
 }
 body.no-scroll {
@@ -51,7 +51,7 @@ body.no-scroll {
   padding: 0;
   white-space: nowrap;
   -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -94,7 +94,7 @@ body.no-scroll {
 }
 
 .subtitle {
-  font-family: "Caveat Brush";
+  font-family: 'Caveat Brush';
   font-size: 24px;
   line-height: 1.25;
   text-align: center;
@@ -151,7 +151,7 @@ body.no-scroll {
   line-height: 20px;
 }
 
-.contact-list__icon {
+.footer-list__icon {
   margin-left: 4px;
   fill: #2e2520;
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */
