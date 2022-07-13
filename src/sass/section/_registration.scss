@@ -248,6 +248,10 @@
   }
   @media screen and (min-width: 768px) {
     top: 100%;
+    left: 5px;
+  }
+  @media screen and (min-width: 1280px) {
+    top: 100%;
   }
 }
 .form__item:focus-within .form__input-helper {
