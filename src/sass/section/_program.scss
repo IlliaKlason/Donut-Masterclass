@@ -38,11 +38,6 @@
     align-items: center;
   }
 
-  // &__benefit span {
-  //   display: flex;
-  //   align-items: center;
-  // }
-
   &__benefit span::before {
     content: url(../images/svg/donut.svg);
     height: 16px;
