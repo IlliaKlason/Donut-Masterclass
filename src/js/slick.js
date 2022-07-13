@@ -1,7 +1,7 @@
 $('.reviews__list').slick({
   autoplay: true,
   autoplaySpeed: 1500,
-  speed: 300,
+  speed: 500,
   easing: 'ease',
   centerMode: true,
   centerPadding: '0px',
