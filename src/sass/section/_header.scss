@@ -27,12 +27,26 @@
             background-position: -12px -51px;
             background-size: 130px;
             background-repeat: no-repeat;
+        }
 
+        @media screen and (max-width: 767.98px) {
+            background-image: url(../images/header/donuts_group-mob-1x.webp);
+            background-repeat: no-repeat;
+            background-position: -12px -51px;
+        }
 
+        @media screen and (max-width: 767.98px),
+        (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image:
+                url(../images/header/donuts_group-mob-2x.webp);
+            background-position: -12px -51px;
+            background-size: 130px;
+            background-repeat: no-repeat;
         }
     }
-
-
 }
 
 // випадаюча минюшка
@@ -370,6 +384,7 @@
 
     @media screen and (min-width: 1280px) {
         margin-bottom: 32px;
+        font-size: 24px;
     }
 
 }
@@ -409,6 +424,10 @@
 
     @media screen and (min-width: 1280px) {
         margin-bottom: 32px;
+        font-size: 24px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+
     }
 }
 

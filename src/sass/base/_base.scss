@@ -36,12 +36,14 @@ body {
 
   @media screen and (max-width: 768px) {
     background-image: url(../images/body/bg-mob1.png), url(../images/body/bg-mob-botton1.png);
-
     background-repeat: no-repeat;
     background-position: top 0 right 0, bottom 250px right 0;
     background-size: 100% 460px, 100% 1230px;
 
-    @media screen and (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    @media screen and (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
       background-image: url(../images/body/bg-mob2x.png), url(../images/body/bg-mob-bottom2x.png);
       background-repeat: no-repeat;
       background-position: top 0 right 0, bottom 250px right 0;
@@ -55,7 +57,10 @@ body {
     background-position: top 0 right 0, bottom 95px right 0;
     background-size: 100% 622px, 100% 1470px;
 
-    @media screen and (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    @media screen and (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
       background-image: url(../images/body/bg-tablet2x.png), url(../images/body/bg-tabler-bottom2x.png);
       background-repeat: no-repeat;
       background-position: top 0 right 0, bottom 95px right 0;
@@ -69,7 +74,10 @@ body {
     background-position: top 0 right 0, bottom;
     background-size: 100% 1035px, 100% 2040px;
 
-    @media screen and (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    @media screen and (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
       background-image: url(../images/body/bg-desk2x.png), url(../images/body/bg-desk-bottom2x.png);
       background-repeat: no-repeat;
       background-position: top 0 right 0, bottom;
