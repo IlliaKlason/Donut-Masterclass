@@ -10,20 +10,35 @@
   }
 }
 
-.slick-slide.slick-center {
-  width: 280px;
+.reviews__list {
+  .slick-slide {
+    width: 280px;
 
-  @media screen and (min-width: 768px) {
-    width: 336px;
-    margin-top: 85px;
-  }
+    transition: transform 300ms ease-in, margin-top 300ms ease-in;
+    transform-origin: top center;
 
-  @media screen and (min-width: 1280px) {
-    width: 400px;
-    margin-top: 135px;
+    @media screen and (min-width: 768px) and (max-width: 1279px) {
+      width: 152px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      width: 400px;
+      transform: scale(0.7);
+    }
+
+    &.slick-current.slick-active {
+      @media screen and (min-width: 768px) and (max-width: 1279px) {
+        margin-top: 65px;
+        width: 336px;
+      }
+
+      @media screen and (min-width: 1280px) {
+        transform: scale(1);
+        margin-top: 85px;
+      }
+    }
   }
 }
-
 .slick-dots {
   display: flex;
   justify-content: center;
